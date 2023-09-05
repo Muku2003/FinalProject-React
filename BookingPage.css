@@ -1,0 +1,90 @@
+                                                                                                  /* BookingPage.css */
+
+.booking-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://live.staticflickr.com/4099/4894651481_15c7eac3e1_b.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+     
+  }
+  
+  .booking-page h1 {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: white;
+  padding: 10px 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  #id {
+    font-weight: bold;
+    display: block;
+    margin: bottom 5px; 
+    color:black;
+  }
+  #nam{
+    font-weight: bold;
+    display: block;
+    margin: bottom 5px; 
+    color:black;
+  }
+  #hid {
+    font-weight: bold;
+    display: block;
+    margin: bottom 5px; 
+    color:black;
+  }
+  #cid {
+    font-weight: bold;
+    display: block;
+    margin: bottom 5px; 
+    color:black;
+  }
+  #cod {
+    font-weight: bold;
+    display: block;
+    margin: bottom 5px; 
+    color:black;
+  }
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+     /* Semi-transparent white background */
+  }
+  
+  #book {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #book:hover {
+    background-color: #0056b3;
+  }
+  #g:hover {
+    background-color:rgb(215, 215, 27);
+  }
+  #d:hover {
+    background-color:rgb(215, 215, 27);
+  }
+  #p:hover {
+    background-color:rgb(215, 215, 27);
+  }

@@ -1,0 +1,49 @@
+ .home-page {
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f2f2f2; /* Background color for the entire page */
+    background-image: url('https://park-hyatt-goa-resort-and-spa.booked.net/data/Photos/OriginalPhoto/13522/1352205/1352205881/Itc-Grand-Goa-A-Luxury-Collection-Resort-Spa-Goa-Utorda-Exterior.JPEG');
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  #home {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #home li {
+    margin: 10px;
+  }
+  
+  #home li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: rgb(23, 22, 22);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  #home li a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }

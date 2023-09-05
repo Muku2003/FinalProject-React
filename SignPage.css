@@ -1,0 +1,69 @@
+/* SignPage.css */
+
+.sign-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 115vh;
+    width: 95vw;
+    margin-left: 10px;
+    margin-right: auto;
+    background-color: #f2f2f2;
+    background-image: url('https://images.unsplash.com/photo-1574276323455-8333699f7358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzaWRlbmN5fGVufDB8fDB8fHww&w=1000&q=80');
+  }
+  
+  .h1 {
+    font-size: 75px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:#000000; /* Text color for labels */
+  }
+  
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button#sign {
+    background-color: #007bff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button#get {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  input{
+    background-color: rgb(219, 219, 219);
+  }
+  
+  /* Add additional styling as needed */
+  

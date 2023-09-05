@@ -1,0 +1,41 @@
+.hotel-contact {
+    background-color: #030303;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .info-item {
+    margin-bottom: 10px;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    color: #007BFF;
+  }
+  
+  .info-text {
+    margin-left: 10px;
+  }
+  
+  .social-media-links {
+    margin-top: 30px;
+  }
+  
+  .social-media-links a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media-links a:hover {
+    color: #ff6f61; /* Change to your desired hover color */
+  }
